@@ -17,7 +17,7 @@ public class InputCarInfo {
             try {
                 validation(this.carList);
                 break;
-            } catch (RuntimeException e) {
+            } catch (IllegalArgumentException e) {
             }
         }
         return this.carList;
